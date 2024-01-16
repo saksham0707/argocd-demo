@@ -4,6 +4,7 @@ metadata:
   name: httpd-pvc
   namespace: test
 spec:
+  storageClassName: http-ssd
   accessModes:
     - ReadWriteOnce
   resources:
