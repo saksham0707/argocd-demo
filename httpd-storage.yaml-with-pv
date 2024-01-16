@@ -17,9 +17,11 @@ spec:
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
+  name: httpd-pvc
   namespace: test
 spec:
   storageClassName: ""
+  volumeName: httpd-pv
   accessModes:
     - ReadWriteOnce
   resources:
