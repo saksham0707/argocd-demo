@@ -21,7 +21,6 @@ metadata:
   namespace: test
 spec:
   storageClassName: ""
-  volumeName: httpd-pv
   accessModes:
     - ReadWriteOnce
   resources:
