@@ -27,10 +27,4 @@ spec:
       - name: httpd-web
         #image: pawanitzone/gke-image:35
         image: 260699962226.dkr.ecr.ap-south-1.amazonaws.com/argocd:latest
-        volumeMounts:
-            - name: httpd-volume
-              mountPath: /opt
-      volumes:
-        - name: httpd-volume
-          persistentVolumeClaim:
-            claimName: httpd-pvc
+        
