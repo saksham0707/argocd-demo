@@ -26,7 +26,7 @@ spec:
       containers:
       - name: httpd-web
         #image: pawanitzone/gke-image:35
-        image: pawanitzone/hyt-http:15
+        image: 260699962226.dkr.ecr.ap-south-1.amazonaws.com/argocd:latest
         volumeMounts:
             - name: httpd-volume
               mountPath: /opt
